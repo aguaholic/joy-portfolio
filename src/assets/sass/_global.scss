@@ -43,20 +43,10 @@ h6 {
   color: fade-out($white, 0.3);
 }
 
-/* Map */
-
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
+// Form
+.contact {
+  max-width: 1110px;
+  margin: 0 auto;
 }
 
 // Scroll to top button

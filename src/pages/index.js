@@ -112,7 +112,7 @@ const IndexPage = () => (
       <div className="container text-center">
         <h2 className="mx-auto mb-5">
           Welcome to
-          <em>your</em>
+          <em> your </em>
           next website!
         </h2>
         <a
@@ -202,21 +202,54 @@ const IndexPage = () => (
       </div>
     </section>
 
-    {/* <section id="contact" className="map">
-      <iframe
-        width="100%"
-        height="100%"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-        src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"
-      ></iframe>
-      <br />
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section> */}
+    <section id="contact" className="contact mt-5">
+      <h2 class="h1-responsive text-center mb-5">Contact me :)</h2>
+      <form
+        action="https://formspree.io/xyynqgdy"
+        method="POST"
+        className="form"
+      >
+        <div class="md-form form-group mt-2">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            className="form-control"
+            placeholder="Your name"
+            aria-label="Add your name"
+          />
+        </div>
+
+        <div class="md-form form-group">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className="form-control"
+            placeholder="Your email"
+            aria-label="Add your email"
+          />
+        </div>
+
+        <div class="md-form form-group">
+          <textarea
+            name="message"
+            id="message"
+            rows="10"
+            className="form-control"
+            placeholder="Write your message"
+            aria-label="Add your mensage"
+          />
+        </div>
+
+        <input
+          type="submit"
+          value="Send mensage"
+          className="submit md-form form-group btn btn-secondary btn-lg btn-block"
+          aria-label="Click to send"
+        />
+      </form>
+    </section>
 
     <ScrollToTop />
     <Footer />
