@@ -18,16 +18,11 @@ module.exports = {
       name: 'Github',
       url: 'https://github.com/aguaholic',
     },
-    // {
-    //   icon: 'icon-social-twitter',
-    //   name: 'Twitter',
-    //   url: 'https://twitter.comx',
-    // },
-    // {
-    //   icon: 'icon-social-facebook',
-    //   name: 'Facebook',
-    //   url: 'https://facebook.com',
-    // },
+    {
+      icon: 'icon-social-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/joyceterra/',
+    },
   ],
   email: 'joyterra@gmail.com',
   phone: '000-00000',
