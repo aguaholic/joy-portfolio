@@ -20,9 +20,7 @@ export default function Footer() {
             );
           })}
         </ul>
-        <p className="text-muted small mb-0">
-          Copyright &copy; Gatsby Starter Stylish
-        </p>
+        <p className="text-muted small mb-0">Copyright &copy; Joyce Terra</p>
       </div>
     </footer>
   );
