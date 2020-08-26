@@ -132,12 +132,15 @@ const IndexPage = () => (
         </div>
         <div className="row no-gutters">
           <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
+            <a
+              className="portfolio-item"
+              href="https://trajanopastelaria.netlify.app/"
+            >
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Stationary</h2>
+                  <h2>Trajano Pastelaria</h2>
                   <p className="mb-0">
-                    A yellow pencil with envelopes on a clean, blue backdrop!
+                    A full responsive website for a restaurant in Brazil
                   </p>
                 </span>
               </span>
@@ -145,42 +148,39 @@ const IndexPage = () => (
             </a>
           </div>
           <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
+            <a
+              className="portfolio-item"
+              href="https://joy-coffee-shop.netlify.app/"
+            >
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p className="mb-0">
-                    A dark blue background with a colored pencil, a clip, and a
-                    tiny ice cream cone!
-                  </p>
+                  <h2>Coffee shop</h2>
+                  <p className="mb-0">Not the other kind, just real coffee!</p>
                 </span>
               </span>
               <img className="img-fluid" src={p2} alt="" />
             </a>
           </div>
           <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
+            <a
+              className="portfolio-item"
+              href="https://app.netlify.com/sites/backroads-joy/overview"
+            >
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Strawberries</h2>
-                  <p className="mb-0">
-                    Strawberries are such a tasty snack, especially with a
-                    little sugar on top!
-                  </p>
+                  <h2>Tour Agency</h2>
+                  <p className="mb-0">Travel through the stories</p>
                 </span>
               </span>
               <img className="img-fluid" src={p3} alt="" />
             </a>
           </div>
           <div className="col-lg-6">
-            <a className="portfolio-item" href="/#">
+            <a className="portfolio-item" href="https://joyterra.netlify.app/">
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Workspace</h2>
-                  <p className="mb-0">
-                    A yellow workspace with some scissors, pencils, and other
-                    objects.
-                  </p>
+                  <h2>Study Project</h2>
+                  <p className="mb-0">Where Gatsby started for me</p>
                 </span>
               </span>
               <img className="img-fluid" src={p4} alt="" />
