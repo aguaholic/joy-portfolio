@@ -32,94 +32,25 @@ const IndexPage = () => (
       <div className="overlay"></div>
     </header>
 
-    <section className="content-section bg-light" id="about">
+    <section className="content-section" id="about">
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
-            <h2>
-              Stylish Portfolio is the perfect theme for your next project!
-            </h2>
-            <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends
-            </p>
-            <Scroll type="id" element="services" offset={100}>
-              <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
-              </a>
-            </Scroll>
+            <h2>About me bla bla bla</h2>
+            <p className="lead mb-5">Lorem ipsum</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section
-      className="content-section bg-primary text-white text-center"
-      id="services"
-    >
-      <div className="container">
-        <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
-        </div>
-        <div className="row">
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p className="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Freshly redesigned for Bootstrap 4.
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p className="text-faded mb-0">
-              Millions of users
-              <i className="fas fa-heart"></i>
-            </p>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p className="text-faded mb-0">I mustache you a question...</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="callout">
+    <section className="content-section bg-primary text-white">
       <div className="container text-center">
-        <h2 className="mx-auto mb-5">
-          Welcome to
-          <em> your </em>
-          next website!
-        </h2>
-        <a
-          className="btn btn-primary btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-stylish"
-        >
-          Download Now!
+        <h2 className="mb-4">Take a look on what I'm working on now</h2>
+        <a href="/#" className="btn btn-xl btn-light mr-4">
+          Click Me!
+        </a>
+        <a href="/#" className="btn btn-xl btn-dark">
+          Look at Me!
         </a>
       </div>
     </section>
@@ -190,18 +121,6 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="content-section bg-primary text-white">
-      <div className="container text-center">
-        <h2 className="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="/#" className="btn btn-xl btn-light mr-4">
-          Click Me!
-        </a>
-        <a href="/#" className="btn btn-xl btn-dark">
-          Look at Me!
-        </a>
-      </div>
-    </section>
-
     <section id="contact" className="contact mt-5">
       <h2 class="h1-responsive text-center mb-5">Contact me :)</h2>
       <form
@@ -244,7 +163,7 @@ const IndexPage = () => (
 
         <input
           type="submit"
-          value="Send mensage"
+          value="Send message"
           className="submit md-form form-group btn btn-secondary btn-lg btn-block"
           aria-label="Click to send"
         />
